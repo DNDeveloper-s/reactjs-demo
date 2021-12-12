@@ -1,0 +1,18 @@
+.card {
+    background-color: rgba(58,28,224,.35);
+    border-radius: 10px;
+    padding: 30px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cardImageContainer {
+    background-size: contain;
+    box-shadow: 0 5px 6px -5px rgba(0,0,0,0.78);
+    margin-bottom: 20px;
+}
+
+.cardImage {
+    width: 100px;
+}

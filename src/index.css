@@ -1,13 +1,34 @@
+
+@font-face {
+  font-family: "GTAmerica";
+  src: url('./assets/fonts/GTAmericaExpandedBold.woff2');
+}
+
+@font-face {
+  font-family: "ProductSansBold";
+  src: url('./assets/fonts/ProductSansBold.woff2');
+}
+
+@font-face {
+  font-family: "ProductSansRegular";
+  src: url('./assets/fonts/ProductSansRegular.woff2');
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: ProductSansBold, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #121214;
+  padding: 0 5vw;
 }
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.flex {display: flex}
+.justify-center {justify-content: center}
+.align-center {align-items: center}

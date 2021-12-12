@@ -1,0 +1,32 @@
+.hero {
+    margin-top: 90px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.heroImage {
+    width: 90%;
+    height: 90%;
+}
+
+.heroContent {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    background-size: contain;
+    padding: 0 60px;
+}
+
+.heroContent h2 {
+    color: white;
+    margin: 0;
+    font-size: 45px;
+}
+
+.heroContent h3 {
+    color: #fdb630;
+    margin: 18px 0 25px;
+    font-size: 45px;
+}
