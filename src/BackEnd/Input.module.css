@@ -1,0 +1,26 @@
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+}
+.inputContainer label {
+    text-transform: capitalize;
+    color: white;
+}
+
+.container input {
+    width: 80%;
+    margin-bottom: 15px;
+    padding: 6px 10px;
+}
+.container .error {
+    color: red;
+    margin: 5px 0 0;
+}

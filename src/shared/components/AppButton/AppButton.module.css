@@ -1,6 +1,7 @@
 .button {
     padding: 4px 10px;
     max-height: 50px;
+    cursor: pointer;
 }
 
 .label {
